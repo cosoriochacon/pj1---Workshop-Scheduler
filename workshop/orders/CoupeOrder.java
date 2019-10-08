@@ -8,8 +8,8 @@ public class CoupeOrder {
     protected int precio;
 
 
-	public CoupeOrder(int total, String tipo_orden, int precio) {
-		super(total);
+	protected CoupeOrder(int number, String plate, int total, double time, String tipo_orden, int precio) {
+		super(number, plate, total, time);
         this.tipo_orden = tipo_orden;
         this.precio = precio;
 	}
