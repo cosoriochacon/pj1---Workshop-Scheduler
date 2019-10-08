@@ -1,3 +1,5 @@
+package workshop.orders;
+
 public class BusOrder extends PaintOrder{
 	
     protected String tipo_orden;

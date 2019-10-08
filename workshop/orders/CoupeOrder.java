@@ -1,3 +1,5 @@
+package workshop.orders;
+
 import java.util.Random;
 
 public class CoupeOrder {
