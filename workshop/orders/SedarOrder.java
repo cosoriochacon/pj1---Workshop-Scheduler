@@ -12,8 +12,8 @@ public class SedanOrder {
     protected int precio;
 
     /*Constructor*/
-    public SedanOrder(int total, String tipo_orden, int precio) {
-        super(total);
+    public SedanOrder(int number, String plate, int total, double time, String tipo_orden, int precio){
+        super(number, plate, total, time);
         this.tipo_orden = tipo_orden;
         this.precio = precio;
     }
