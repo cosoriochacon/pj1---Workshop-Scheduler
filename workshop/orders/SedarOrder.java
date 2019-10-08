@@ -11,6 +11,7 @@ public class SedanOrder {
     protected String tipo_orden;
     protected int precio;
 
+    /*Constructor*/
     public SedanOrder(int total, String tipo_orden, int precio) {
         super(total);
         this.tipo_orden = tipo_orden;
