@@ -5,11 +5,11 @@ import java.util.Random;
 public class CoupeOrder {
     
     protected String tipo_orden;
-    protected int precion;
+    protected int precio;
 
 
-	protected CoupeOrder(int number, String plate, int total, double time, String tipo_orden, int precio) {
-		super(number, plate, total, time);
+	public CoupeOrder(int total, String tipo_orden, int precio) {
+		super(total);
         this.tipo_orden = tipo_orden;
         this.precio = precio;
 	}
